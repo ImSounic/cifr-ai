@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Spotify cache
+.spotify_cache
+.cache*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Google Calendar credentials
+credentials.json
+token.json
+token.pickle
+
+# Audio files
+*.mp3
+*.wav
+
+# Test files
+test_*.py
+debug_*.py
+
+# Distribution
+build/
+dist/
+*.egg-info/
