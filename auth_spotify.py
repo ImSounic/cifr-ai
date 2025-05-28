@@ -7,7 +7,7 @@ from spotipy.oauth2 import SpotifyOAuth
 import os
 from dotenv import load_dotenv
 
-# Load environment variables
+# Load environment variables with override
 load_dotenv(override=True)
 
 def main():

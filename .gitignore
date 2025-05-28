@@ -47,3 +47,13 @@ debug_*.py
 build/
 dist/
 *.egg-info/
+
+
+# Security - Never commit these
+.env.backup
+.env.*
+*.env
+
+# Spotify authentication cache
+.spotify_cache*
+.cache-*
